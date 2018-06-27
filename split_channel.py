@@ -8,7 +8,7 @@ import datetime
 from datetime import timedelta
 
 
-channel = [dict() for _ in range(100)]
+channel = [dict() for _ in range(250)]
 
 
 def view_params(lat1D, lon1D, alt1, lat2D, lon2D, alt2):
@@ -139,7 +139,7 @@ station_lat = 0
 station_height = 0
 
 
-for x in range(0,100):
+for x in range(0,250):
   channeldata = sorted(channel[x])
   if len(channeldata) < 100:
     continue
